@@ -26,7 +26,7 @@ const Footer = () => {
         <div className="right-section">
             <h3>Contact Us</h3>
             <div className="office-info">
-            <p><BsFillTelephoneFill className="contact-icon"/> +447473997191</p>
+            <p><BsFillTelephoneFill className="contact-icon"/> +91 9839339797</p>
             <p><FaMessage className="contact-icon"/> sybexdesigns@gmail.com</p>
             <p><FaTelegram className="contact-icon"/> trading</p>
             <p><FaWhatsapp className="contact-icon"/> +447473997191</p>
