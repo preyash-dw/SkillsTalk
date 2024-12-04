@@ -1,0 +1,166 @@
+/* Container for the carousel */
+.carousel-container {
+  background-color: #f5f7ff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 5rem;
+  color: #686666;
+  font-weight: 600;
+  text-align: center !important;
+}
+
+/* Carousel layout */
+.carousel {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Testimonial card layout */
+.testimonial-card {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Let the width adjust naturally */
+  max-width: 300px; /* Prevent it from exceeding this width */
+  flex: 1; /* Allow flexibility for layout adjustments */
+  text-align: left; /* Align text to the left */
+  position: relative;
+  margin: 10px; /* Add margin for better spacing in wrapped layouts */
+  display: flex; /* Use flexbox to align the content */
+  flex-direction: column;
+  align-items: center; /* Center the avatar */
+  justify-content: space-between;
+}
+.testimonial-card h3{
+  font-size: 1.5rem;
+}
+/* Avatar styles */
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-top: -50px; /* Move the avatar up */
+  margin-bottom: 10px;
+  border: 3px solid #fff;
+  display: block; /* Ensure avatar is centered */
+}
+
+/* Role text styling */
+.role {
+  color: #6c63ff;
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+/* Feedback text styling */
+.feedback {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* Navigation buttons */
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.nav-button {
+  background-color: transparent;
+  border: none;
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: #555;
+  padding: 10px;
+}
+
+.nav-button:hover {
+  background-color: transparent; /* Ensure no background appears on hover */
+  color: #555; /* Optionally, adjust the color on hover */
+}
+
+.nav-button:disabled {
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Indicator styles */
+.indicator-container {
+  display: flex;
+  gap: 5px;
+  margin: 0 15px;
+}
+
+.indicator {
+  width: 10px;
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 50%;
+}
+
+.indicator.active {
+  background-color: #6c63ff;
+}
+
+/* Responsive adjustments */
+
+/* Tablet view */
+@media (max-width: 768px) {
+  .testimonial-card {
+      max-width: 45%; /* Show two cards per row */
+  }
+
+  .feedback {
+      font-size: 12px; /* Reduce text size */
+  }
+
+  .role {
+      font-size: 12px; /* Reduce role text size */
+      
+  }
+  .testimonial-card h3{
+    font-size: 1rem;
+  }
+}
+
+/* Mobile view */
+@media (max-width: 480px) {
+  .carousel-container h2{
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  .testimonial-card {
+      max-width: 90%; /* Show one card per row */
+  }
+
+  .feedback {
+      font-size: 10px; /* Reduce text size further */
+  }
+
+  .role {
+      font-size: 10px; /* Reduce role text size */
+      
+  }
+
+  /* Make the avatar smaller and center it in the card */
+  .avatar {
+      width: 60px;
+      height: 60px;
+      margin-top: -40px; /* Adjust margin */
+  }
+  .testimonial-card h3{
+    font-size: 0.7rem;
+  }
+}
