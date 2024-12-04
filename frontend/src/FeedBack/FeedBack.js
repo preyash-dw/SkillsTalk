@@ -23,7 +23,7 @@ function Feedback() {
     };
 
     try {
-      const response = await axios.post('http://localhost:5000/api/queries', formData);
+      const response = await axios.post('https://backend-liart-five-11.vercel.app/api/queries', formData);
       console.log('Data submitted successfully:', response.data);
       setStatus('success'); // Update status on success
       setMessageVisible(true); // Show the success message
