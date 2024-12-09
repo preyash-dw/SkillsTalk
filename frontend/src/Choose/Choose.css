@@ -5,7 +5,7 @@
   height: auto;
   border-radius: 20px;
   text-align: center;
-  background-color: #a5b3e9d5;
+  background-color: #eef0ff;
   width: 100vw; /* Full viewport width */
   max-width: 1200px; /* Prevent container from exceeding screen width */
   margin: 0 auto; /* Remove margin to avoid horizontal scrolling */
@@ -17,7 +17,7 @@
 .choose-heading {
   font-size: 2.5rem;
   font-weight: bold;
-  color: #202096;
+  color: #7070d2;
   margin-bottom: 30px;
 }
 

@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #090996;
+  background-color: #6666db;
   padding: 0px 20px;
   position: relative;
   z-index: 1000;
@@ -106,5 +106,8 @@
 @media (max-width: 480px){
   .navbar-left{
     margin-left: -8%;
+  }
+  .navbar{
+    height: 80px;
   }
 }
