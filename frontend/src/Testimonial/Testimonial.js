@@ -46,7 +46,7 @@ const testimonials = [
   {
     id: 6,
     name: "James Green",
-    role: "Data Scientist",
+    role: "Brazil",
     feedback:
       "The practical approach of this course is what sets it apart. The instructors simplified everything, making it possible for me to apply what I learned immediately.",
     image: "https://isbscience.org/wp-content/uploads/Andrew-Magis.png",
