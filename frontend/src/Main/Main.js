@@ -26,14 +26,14 @@ const Main = () => {
   const optionalLinks = ["Forex", "Stocks", "Index", "Investment", "BANKNIFTY"];
 
   const binaryLinks = [
-    "CWRV Introduction",
-    "CandleStick Shape and Size",
-    "Breakout Strategy",
-    "Live Market Analysis",
-    "Trader Mindset",
-    "Rejection Strategy",
-    "Retracement Concept",
+    "Candle Stick Reading With Volume",
+    "Every Candle Reading",
+    "Volume Analysis with Confirmation",
+    "Advanced Strategies with 80%+ Accuracy",
+    "Money Management",
+    "Pro Trading Mindset",
   ];
+  
 
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalHeading, setModalHeading] = useState("");

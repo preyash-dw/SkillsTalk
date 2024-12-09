@@ -1,8 +1,8 @@
 import React from "react";
 import "./Footer.css";
 import { BsFillTelephoneFill } from "react-icons/bs";
-import { FaMessage, FaTelegram, FaWhatsapp } from "react-icons/fa6";
-import { FaLocationDot } from "react-icons/fa6";
+import { FaInstagram, FaTelegram, FaWhatsapp } from "react-icons/fa6";
+
 const Footer = () => {
   return (
     <div className="contact-us">
@@ -17,19 +17,74 @@ const Footer = () => {
           </p>
           <p className="footer-note">Nice hearing from you!</p>
           <div className="social-icons">
-          <i className="fab fa-youtube"></i>
-            <i className="fab fa-facebook"></i>
-            <i className="fab fa-whatsapp"></i>
-            <i className="fab fa-telegram"></i>
+            <a
+              href="https://www.youtube.com/@Skillstock-21"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-youtube"></i>
+            </a>
+
+            <a
+              href="https://www.instagram.com/skillstock_official/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-instagram"></i>
+            </a>
+
+            <a
+              href="https://wa.me/9122891133"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-whatsapp"></i>
+            </a>
+
+            <a
+              href="https://t.me/Skills_talk"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-telegram"></i>
+            </a>
           </div>
         </div>
         <div className="right-section">
-            <h3>Contact Us</h3>
-            <div className="office-info">
-            <p><BsFillTelephoneFill className="contact-icon"/> +91 9839339797</p>
-            <p><FaMessage className="contact-icon"/> sybexdesigns@gmail.com</p>
-            <p><FaTelegram className="contact-icon"/> trading</p>
-            <p><FaWhatsapp className="contact-icon"/> +447473997191</p>
+          <h3>Contact Us</h3>
+          <div className="office-info">
+            <p>
+              <BsFillTelephoneFill className="contact-icon" /> +91 9122891133
+            </p>
+            <p>
+              <FaInstagram className="contact-icon" />{" "}
+              <a
+                href="https://www.instagram.com/skillstock_official/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Skillstock_official
+              </a>
+            </p>
+            <p>
+              <FaTelegram className="contact-icon" />{" "}
+              <a
+                href="https://t.me/Skills_talk"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Skill_stock
+              </a>
+            </p>
+            <p>
+              <FaWhatsapp className="contact-icon" />   <a
+              href="https://wa.me/9122891133"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              9122891133
+              </a>
+            </p>
           </div>
         </div>
       </div>
