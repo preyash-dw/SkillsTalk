@@ -8,7 +8,7 @@ const Offer = () => {
     advance: {
       title: "ADVANCE",
       price: { new: "$150", old: "$200" },
-      content: ["2 Weeks Full CWRV Course", "40 Min session Monday to Friday"],
+      content: ["2 Weeks Full CWRV Course", "40 Min each session Monday to Friday"],
       details: [
         { title: "Live Session", description: "Focussed on Fundamentals and live analysis" },
         { title: "4-5 Strategies and Concept", description: "CWRV Strategies, Candle reading, Support/Resistance" },
@@ -19,7 +19,7 @@ const Offer = () => {
     pro: {
       title: "PRO",
       price: { new: "$235", old: "$300" },
-      content: [ "4 Weeks Full CWRV Course","40 Min session Monday to Friday"],
+      content: [ "4 Weeks Full CWRV Course","40 Min each session Monday to Friday"],
       details: [
         { title: "Live Market Analysis", description: "In-depth market insights, fundamental understanding" },
         { title: "Advanced Market Strategy Test", description: "More Frequent with Guided Sessions" },

@@ -14,7 +14,7 @@ const Navbar = () => {
       {/* Navbar Left - Logo */}
       <div className="navbar-left">
         <img src={Logo} alt="Logo" className="navbar-logo" />
-        <span className="navbar-title">SKILLSTALK</span>
+        <span className="navbar-title">SKILLSTOCK</span>
       </div>
 
       {/* Hamburger Menu for Mobile */}

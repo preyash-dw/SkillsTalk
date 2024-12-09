@@ -5,7 +5,7 @@
   height: auto;
   border-radius: 20px;
   text-align: center;
-  background-color: #dfdfff;
+  background-color: #a5b3e9d5;
   width: 100vw; /* Full viewport width */
   max-width: 1200px; /* Prevent container from exceeding screen width */
   margin: 0 auto; /* Remove margin to avoid horizontal scrolling */
@@ -17,7 +17,7 @@
 .choose-heading {
   font-size: 2.5rem;
   font-weight: bold;
-  color: #5a5acb;
+  color: #202096;
   margin-bottom: 30px;
 }
 
@@ -42,7 +42,7 @@
 
 .card-icon {
   font-size: 1rem;
-  color: #5a5acb;
+  color: #007bff;
   margin-bottom: 20px;
 }
 

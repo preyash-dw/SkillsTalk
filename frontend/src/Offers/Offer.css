@@ -14,7 +14,7 @@
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
-  color: #4f4fda;
+  color: #202096;
 }
 
 .offer-subheading {
@@ -49,7 +49,7 @@
 .offer-title {
   font-size: 1rem;
   font-weight: bold;
-  color: #4f4fda;
+  color: #202096;
   text-align: left !important;
 }
 
@@ -233,8 +233,8 @@
     font-size: 0.8rem; /* Adjust card title size */
   }
   .offer-price{
-    margin-top: -90%;
-    margin-left: -15%;
+    margin-top: -80%;
+    margin-left: -25%;
   }
 
   .new-price {
@@ -284,3 +284,8 @@
 }
 
 /* Modal styles */
+@media (max-width: 400px){
+  .offer-price{
+    margin-top: -90%;
+  }
+}

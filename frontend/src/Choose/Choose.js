@@ -9,7 +9,7 @@ const Choose = () => {
         <div className="card">
           <i className="card-icon fas fa-trophy"></i>
           <h3 className="card-title">Personalised <br /> Mentorship</h3>
-          <p className="card-description"> Join Skillstalk for
+          <p className="card-description"> Join Skillstock for
             personalized mentorship
             from experienced traders,
             helping you accelerate

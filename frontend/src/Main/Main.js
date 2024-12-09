@@ -11,7 +11,7 @@ const Main = () => {
 
   // Function to check screen size and update state
   const checkScreenSize = () => {
-    setIsMobile(window.innerWidth <= 420);
+    setIsMobile(window.innerWidth <= 480);
   };
 
   useEffect(() => {
@@ -64,7 +64,7 @@ const Main = () => {
     <span className="mobile-bold">Elevates Your Trading Skills</span>
   ) : (
     <>
-      <span className="highlight">Your</span>
+      <span className="highlight"> Elevates Your</span>
       <br />
       Trading Skills
     </>

@@ -18,7 +18,7 @@ function App() {
       duration: "7 min",
       views: "53K views",
       date: "2 weeks ago",
-      videoSrc: "https://www.youtube.com/embed/-aJiVo6rDAc", // YouTube embed link
+      videoSrc: "https://www.youtube.com/embed/xfyjA3w83uE", // Updated YouTube embed link
     },
     {
       title: "Video 2",
@@ -26,7 +26,7 @@ function App() {
       duration: "7 min",
       views: "53K views",
       date: "2 weeks ago",
-      videoSrc: "https://www.youtube.com/embed/-aJiVo6rDAc", // YouTube embed link
+      videoSrc: "https://www.youtube.com/embed/4qRd7-OpTCQ", // Updated YouTube embed link
     },
     {
       title: "Video 3",
@@ -34,7 +34,7 @@ function App() {
       duration: "7 min",
       views: "53K views",
       date: "2 weeks ago",
-      videoSrc: "https://www.youtube.com/embed/-aJiVo6rDAc", // YouTube embed link
+      videoSrc: "https://www.youtube.com/embed/6VXHyCcauNU", // Updated YouTube embed link
     },
     {
       title: "Video 4",
@@ -42,7 +42,7 @@ function App() {
       duration: "7 min",
       views: "53K views",
       date: "2 weeks ago",
-      videoSrc: "https://www.youtube.com/embed/-aJiVo6rDAc", // YouTube embed link
+      videoSrc: "https://www.youtube.com/embed/58eRwxatA6s", // Updated YouTube embed link
     },
     {
       title: "Video 5",
@@ -50,7 +50,7 @@ function App() {
       duration: "7 min",
       views: "53K views",
       date: "2 weeks ago",
-      videoSrc: "https://www.youtube.com/embed/-aJiVo6rDAc", // YouTube embed link
+      videoSrc: "https://www.youtube.com/embed/m8rBt25otAE", // Updated YouTube embed link
     },
     {
       title: "Video 6",
@@ -58,9 +58,10 @@ function App() {
       duration: "7 min",
       views: "53K views",
       date: "2 weeks ago",
-      videoSrc: "https://www.youtube.com/embed/-aJiVo6rDAc", // YouTube embed link
+      videoSrc: "https://www.youtube.com/embed/GuyF2TRogVM", // Updated YouTube embed link
     },
   ];
+  
   
   const binaryVideos = [
     {
@@ -69,7 +70,7 @@ function App() {
       duration: "7 min",
       views: "53K views",
       date: "2 weeks ago",
-      videoSrc: "https://www.youtube.com/embed/-aJiVo6rDAc", // YouTube embed link
+      videoSrc: "https://www.youtube.com/embed/Ju6SHZMrBdA", // Updated YouTube embed link
     },
     {
       title: "Video 2",
@@ -77,7 +78,7 @@ function App() {
       duration: "7 min",
       views: "53K views",
       date: "2 weeks ago",
-      videoSrc: "https://www.youtube.com/embed/-aJiVo6rDAc", // YouTube embed link
+      videoSrc: "https://www.youtube.com/embed/KIFGT3FSPj0", // Updated YouTube embed link
     },
     {
       title: "Video 3",
@@ -85,7 +86,7 @@ function App() {
       duration: "7 min",
       views: "53K views",
       date: "2 weeks ago",
-      videoSrc: "https://www.youtube.com/embed/-aJiVo6rDAc", // YouTube embed link
+      videoSrc: "https://www.youtube.com/embed/Q5tAAuYKTeY", // Updated YouTube embed link
     },
     {
       title: "Video 4",
@@ -93,7 +94,7 @@ function App() {
       duration: "7 min",
       views: "53K views",
       date: "2 weeks ago",
-      videoSrc: "https://www.youtube.com/embed/-aJiVo6rDAc", // YouTube embed link
+      videoSrc: "https://www.youtube.com/embed/WxuK0mguWZQ", // Updated YouTube embed link
     },
     {
       title: "Video 5",
@@ -101,7 +102,7 @@ function App() {
       duration: "7 min",
       views: "53K views",
       date: "2 weeks ago",
-      videoSrc: "https://www.youtube.com/embed/-aJiVo6rDAc", // YouTube embed link
+      videoSrc: "https://www.youtube.com/embed/Sfax2FTdJZU", // Updated YouTube embed link
     },
     {
       title: "Video 6",
@@ -109,9 +110,10 @@ function App() {
       duration: "7 min",
       views: "53K views",
       date: "2 weeks ago",
-      videoSrc: "https://www.youtube.com/embed/-aJiVo6rDAc", // YouTube embed link
+      videoSrc: "https://www.youtube.com/embed/-XONK_HDlt4", // Updated YouTube embed link
     },
   ];
+  
   
   
   return (

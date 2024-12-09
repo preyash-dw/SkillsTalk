@@ -2,8 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #7070D2;
-  padding: 10px 20px;
+  background-color: #090996;
+  padding: 0px 20px;
   position: relative;
   z-index: 1000;
   width: 100%; /* Ensures full width */
@@ -64,10 +64,17 @@
 
 @media (max-width: 768px) {
   .navbar-left{
-    margin-left: -4%;
+    margin-left: -8%;
+  }
+  .navbar-logo{
+    margin-top: 5%;
+    margin-left: -10%;
+    height: 90px;
+    width: 140px;
   }
   .navbar-title{
     font-size: 1.5rem;
+    margin-left: -13%;
   }
  
   .navbar-right {
