@@ -222,10 +222,10 @@
 
   @media (max-width: 480px){
     .mentorship-text{
-      margin-left: 3%;
+      margin-left: -0.5%;
     }
     .button-group{
-        margin-left: 18%;
+        margin-left: 20%;
     }
     .highlight{
       color: #202096;
@@ -301,13 +301,13 @@
   } 
 
   @media (max-width: 390px){
-    .mentorship-text h1{
+    /* .mentorship-text h1{
       margin-left: -5%;
-    }
+    } */
     .description{
-      margin-left: 8%;
+      margin-left: 10%;
     }
     .button-group{
-      margin-left: 14%;
+      margin-left: 16%;
     }
   }
