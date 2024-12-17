@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Offer.css';
 
 const Offer = () => {
   const [modalData, setModalData] = useState(null);
+
 
   const offers = {
     advance: {
@@ -19,7 +20,7 @@ const Offer = () => {
     pro: {
       title: "PRO",
       price: { new: "$235", old: "$300" },
-      content: [ "4 Weeks Full CWRV Course","40 Min each session Monday to Friday"],
+      content: ["4 Weeks Full CWRV Course", "40 Min each session Monday to Friday"],
       details: [
         { title: "Live Market Analysis", description: "In-depth market insights, fundamental understanding" },
         { title: "Advanced Market Strategy Test", description: "More Frequent with Guided Sessions" },
@@ -56,6 +57,9 @@ const Offer = () => {
     <div className="offer-container">
       <h1 className="offer-heading">OFFERS</h1>
       <p className="offer-subheading">Choose your plan</p>
+
+   
+
       <div className="cardss-container">
         {Object.keys(offers).map((key) => {
           const offer = offers[key];

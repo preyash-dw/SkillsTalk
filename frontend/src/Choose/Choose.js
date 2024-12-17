@@ -33,7 +33,7 @@ const Choose = () => {
           <i className="fas fa-users card-icon"></i>
 
           <h3 className="card-title">Supportive<br /> Community <br /> Of Traders</h3>
-          <p className="card-description"> By joining Skillkstalk, you
+          <p className="card-description"> By joining Skillstock, you
             will become a part of
             traders who are all
             working towards the

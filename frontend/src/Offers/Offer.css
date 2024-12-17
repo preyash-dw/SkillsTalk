@@ -123,7 +123,7 @@
   width: 100%;
   height: auto;
   background: rgba(0, 0, 0, 0.5);
-  display: flex;
+  display: none;
   align-items: center;
   z-index: 1000;
   
@@ -265,6 +265,9 @@
 
   .offer-container {
     padding: 15px; /* Reduce padding for container */
+  }
+  .modal{
+    display: flex;
   }
   .modal-content {
     margin-top: 50%;

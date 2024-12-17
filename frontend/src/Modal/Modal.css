@@ -16,6 +16,8 @@
   padding: 20px;
   border-radius: 8px;
   width: 30%;
+  top: -30%;
+  left: -4%;
   position: relative;
 }
 
@@ -92,8 +94,8 @@ button.close-modal:hover {
     width: 90%;
     
     padding: 10px;
-    top: 10%; /* Make sure the content is slightly below the top */
-    left: 5%;
+    top: -10%; /* Make sure the content is slightly below the top */
+    left: 7%;
   }
 
   h2 {
