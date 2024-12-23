@@ -19,9 +19,9 @@
 }
 
 .navbar-logo {
-  width: 120px;
+  width: 140px;
   height: 120px;
-  
+  margin-left: -10%;
 }
 
 .navbar-title {
