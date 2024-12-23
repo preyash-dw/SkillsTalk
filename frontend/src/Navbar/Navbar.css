@@ -9,6 +9,7 @@
   width: 100%; /* Ensures full width */
   max-width: none; /* Removes content-based width constraint */
   box-sizing: border-box; /* Ensures padding doesn't exceed width */
+  height: 100px;
 }
 
 
@@ -18,8 +19,8 @@
 }
 
 .navbar-logo {
-  width: 70px;
-  height: 70px;
+  width: 120px;
+  height: 120px;
   
 }
 
@@ -27,7 +28,7 @@
   font-size: 20px;
   font-weight: bold;
   color: white;
-  margin-left: -10px;
+  margin-left: -30px;
 }
 
 .navbar-right {

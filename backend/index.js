@@ -42,7 +42,7 @@ mongoose
 app.post("/api/queries", async (req, res) => {
   try {
     const { name, email, phone, country, query } = req.body;
-    console.log(req.body);
+    
 
     // Validate request data
     if (!name || !email || !phone || !country || !query) {
