@@ -7,40 +7,40 @@ const Offer = () => {
 
   const offers = {
     advance: {
-      title: "ADVANCE",
-      price: { new: "$150", old: "$200" },
-      content: ["2 Weeks Full CWRV Course", "40 Min each session Monday to Friday"],
+      title: "One Month Training",
+      price: { new: "$350", old: "$450" },
+      content: ["1 Month Full CWRV Course", "40 Min each session Monday to Friday"],
       details: [
-        { title: "Live Session", description: "Focussed on Fundamentals and live analysis" },
-        { title: "4-5 Strategies and Concept", description: "CWRV Strategies, Candle reading, Support/Resistance" },
-        { title: "Daily Assignments", description: "Basic Tasks to Reinforce Learning" },
-        { title: "Money Management", description: "Introductory Level" }
+        { title: "5-10 Powerfull Trading", description: "Stratefies and Core Concepts" },
+        { title: "Chart Reading Basics", description: " & Market behaviour" },
+        { title: "Trade Setup Identification", descpription: "Basic Tasks to Reinforce Learning" },
+        { title: "Beginner Freindly", description: "Money Management Tips" }
       ]
     },
     pro: {
-      title: "PRO",
-      price: { new: "$235", old: "$300" },
-      content: ["4 Weeks Full CWRV Course", "40 Min each session Monday to Friday"],
+      title: "Two Month Advance Training",
+      price: { new: "$499", old: "$599" },
+      content: ["8 Weeks Full CWRV Course", "40 Min each session Monday to Friday"],
       details: [
-        { title: "Live Market Analysis", description: "In-depth market insights, fundamental understanding" },
-        { title: "Advanced Market Strategy Test", description: "More Frequent with Guided Sessions" },
-        { title: "In-Depth Daily Assignments", description: "Focused on improving analysis accuracy" },
-        { title: "Detailed Money Management", description: "Risk-Reward Balancing, Compounding" },
-        { title: "Psychological Sessions", description: "Mindset strategies for consistent trading" },
-        { title: "Doubt Solving Sessions", description: "Weekly, Extended Q&A" }
+        { title: "15-20 High- Accuracy", description: "Trading Strategies" },
+        { title: "Daily Chart Analysis", description: "& Market Structure Insights" },
+        { title: "Risk Management", description: "& Capital Allocation" },
+        { title: "Trend Reading", description: "+ Key Entry Zones" },
+        { title: "Volume Reading", description: "& Candle Power Concepts" },
+        { title: "Access To Trade Reviews & Feedback", description: "Weekly, Extended Q&A" }
       ]
     },
     proPlus: {
-      title: "PRO+",
-      price: { new: "$350", old: "$400" },
-      content: ["2 Months Full CWRV Course", "40 Minutes each session Monday to Friday."],
+      title: "Three-Month Premium Mentorship",
+      price: { new: "$645", old: "$745" },
+      content: ["3 Months Full CWRV Course", "40 Minutes each session Monday to Friday."],
       details: [
-        { title: "Personalized Live Market Analysis", description: "Individual Feedback" },
-        { title: "Exclusive Advanced Strategy", description: "Unique methods not shared in other tiers" },
-        { title: "Comprehensive Money Management", description: "Customized plan for specific trading styles" },
-        { title: "Extended Psychological Sessions", description: "Overcoming advanced emotional challenges in trading" },
-        { title: "Daily Assignments with Feedback", description: "Personalized reviews" },
-        { title: "Dedicated Doubt Solving", description: "One-on-one weekly sessions" }
+        { title: "20 + Elite-Level", description: "Strategies with Live examples" },
+        { title: "One-on-one Trading sessions with me ", description: "Unique methods not shared in other tiers" },
+        { title: "Daily Chart Updates", description: "With Trade Suggestions" },
+        { title: "Weekly Progress Feedback", description: "+ Support" },
+        { title: "Deep Dive into Market Patterns", description: "Pressure Zones & Reversals" },
+        { title: "Risk Control Systems", description: "Used By Top Traders" }
       ]
     }
   };
