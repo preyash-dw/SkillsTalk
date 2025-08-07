@@ -1,0 +1,310 @@
+.mentorship-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 30px;
+  background-color: #eef0ff;
+  padding: 50px;
+  border-radius: 10px;
+  position: relative;
+  width: 100%; /* Ensures the container spans the full width of its parent */
+  max-width: 1200px; /* Limits the maximum width on large screens */
+  box-sizing: border-box; /* Includes padding within the width calculation */
+  margin: 0 auto; /* Centers the container horizontally */
+}
+
+  
+  .mentorship-text {
+    max-width: 100%;
+
+  }
+  
+  h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.3;
+    text-align: left;
+  }
+  
+  .highlight {
+    color: #7070d2;
+  }
+  
+  .description {
+    font-size: 1rem;
+    color: #817d7d;
+    max-width: 80%;
+    text-align: left;
+    margin: 20px 0;
+    font-weight: 500;
+  }
+  
+  .button-group {
+    margin-top: 20px;
+    
+  }
+  
+  .custom-button {
+    padding: 20px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    background-color: #7070d2;
+    border: none;
+    border-radius: 8px;
+    margin-right: 10px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .custom-button:hover {
+    background-color: #5a5acb;
+    transform: translateY(-3px);
+  }
+  
+  .mentorship-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .round {
+    background-color: #7070d2;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+  }
+  
+  .simple {
+    width: 500px;
+    height: 500px;
+    border: 1px solid #5a5acb;
+    border-radius: 50%;
+    position: absolute;
+    top: 45%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  
+  .main-image {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .badge {
+    position: absolute;
+    background-color: #f5f7ff;
+    color: #333;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    z-index: 3;
+    width: 100px;
+    height: 140px;
+  }
+  
+  .video-links .badge-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -50%;
+  }
+  
+  .badge-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+    line-height: 1.2;
+  }
+  
+  .badge-description {
+    font-size: 0.8rem;
+    color: #858383a2;
+    margin: 0;
+  }
+  
+  .badge-icon {
+    margin-left: -10px;
+    margin-top: -10px;
+  }
+  
+  .video-links {
+    top: 20px;
+    left: 85%;
+    transform: translateX(-50%);
+    border: 1px solid #5a5acb;
+  }
+  
+  .categories {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    padding: 1rem;
+    top: 150px;
+    left: -10%;
+    width: 200px;
+    height: 80px;
+    border: 1px solid #5a5acb;
+  }
+  
+  .categories .badge-icon {
+    margin-left: -35px;
+    margin-top: 30px;
+  }
+  
+  .categories .badge-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: -5%;
+  }
+  
+  .categories .badge-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+    line-height: 1.2;
+  }
+  
+  .categories .badge-description {
+    font-size: 1rem;
+    color: #858383a2;
+    margin: 0;
+  }
+  
+  .live {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    padding: 1rem;
+    top: 70%;
+    right: 1%;
+    width: 170px;
+    height: 70px;
+    border: 1px solid #5a5acb;
+  }
+  .live .badge-icon{
+    margin-left: -35px;
+    margin-top: 30px;
+  }
+  .live p{
+    font-size: 1.1rem;
+    color: #858383a2;
+    margin-left: -10%;
+    margin-top: -0.1%;
+  }
+  
+@media (max-width: 768px) {
+    .mentorship-image {
+      display: none;
+    }
+    .mentorship-container{
+        display: flex;
+        flex-direction: column;
+          
+        padding: 0;
+    }
+    .mentorship-text{
+      margin-top: 5%;
+        margin-left: 5%;
+    }
+
+  }
+
+  @media (max-width: 480px){
+    .mentorship-text{
+      margin-left: -0.5%;
+    }
+    .button-group{
+        margin-left: 20%;
+    }
+    .highlight{
+      color: #7070d2;
+    }
+    .mobile-bold {
+      font-weight: bold;
+      font-size:1.6rem ;
+    }
+    .mentorship-text h1{
+      font-size: 1.5rem;
+      font-weight: 500;
+      text-align: center;
+      color: #7070d2;
+    }
+/* Initial styles */
+.description {
+  font-size: 0.8rem;
+  text-align: center;
+  margin-left: 10%;
+  margin-top: 4%;
+  width: 100% !important;
+
+  opacity: 0; /* Start hidden */
+  transform: translateX(-100%); /* Off-screen to the left */
+  animation: slideInFromLeft 0.8s ease-out forwards; /* Animation on page load */
+}
+
+.custom-button {
+  opacity: 0; /* Hidden initially */
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 3%;
+  font-size: 0.7rem;
+  position: relative; /* To enable independent movement */
+}
+
+/* First button animation */
+.custom-button:first-of-type {
+  animation: slideInFromLeft 0.8s ease-out forwards;
+  animation-delay: 0.2s; /* Optional: add delay to control timing */
+}
+
+/* Second button animation */
+.custom-button:nth-of-type(2) {
+  animation: slideInFromRight 0.8s ease-out forwards;
+  animation-delay: 0.4s; /* Optional: add delay to stagger animation */
+}
+
+/* Keyframes for sliding from left */
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-100%); /* Start off-screen to the left */
+    opacity: 0; /* Invisible */
+  }
+  to {
+    transform: translateX(0); /* End in place */
+    opacity: 1; /* Fully visible */
+  }
+}
+
+/* Keyframes for sliding from right */
+@keyframes slideInFromRight {
+  from {
+    transform: translateX(100%); /* Start off-screen to the right */
+    opacity: 0; /* Invisible */
+  }
+  to {
+    transform: translateX(0); /* End in place */
+    opacity: 1; /* Fully visible */
+  }
+}
+
+  } 
+
+  @media (max-width: 390px){
+  
+    .description{
+      margin-left: 10%;
+    }
+    .button-group{
+      margin-left: 16%;
+    }
+  }

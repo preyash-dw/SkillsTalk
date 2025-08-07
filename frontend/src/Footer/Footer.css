@@ -1,0 +1,220 @@
+.contact-us {
+  background-color: #eef1ff;
+  padding: 1rem;
+  border-radius: 10px;
+  font-family: 'Arial', sans-serif;
+  position: relative;
+  overflow: hidden;
+  width: 100%; /* Ensures the container spans the full width */
+  max-width: 1200px; /* Limits the maximum width on larger screens */
+  margin: 0 auto; /* Centers the container */
+  box-sizing: border-box; /* Includes padding within the width */
+}
+
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30%;
+  flex-wrap: wrap;
+}
+
+.left-section {
+  flex: 1;
+  margin-left: 5rem;
+  text-align: left;
+}
+
+.left-section h1 {
+  font-size: 2.5rem;
+  color: black;
+  font-weight: 400;
+}
+
+.left-section .highlight {
+  color: #6a60ee;
+}
+
+.left-section p {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 1rem;
+  width: 80%;
+  text-align: left;
+}
+
+.left-section .footer-note {
+  font-size: 1.2rem;
+  margin-top: 5rem;
+  font-weight: bold;
+  color: #6a60ee;
+}
+
+.social-icons {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  /* margin-right: 75%; */
+}
+
+.social-icons i {
+  margin-right: 10px;
+  color: #6a60ee;
+  cursor: pointer;
+}
+
+.right-section {
+  flex: 1;
+}
+
+.office-info {
+  margin-bottom: 2rem;
+  right: 0;
+}
+
+.office-info h3 {
+  text-align: left;
+  font-size: 1.5rem;
+  color: #6a60ee;
+}
+
+.office-info p {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 0.5rem;
+  text-align: left;
+}
+.office-info a{
+  text-decoration: none;
+  color: #555;
+}
+.contact-icon{
+  font-size: 1.3rem;
+}
+
+/* Decorative Background Shapes */
+.contact-us::before,
+.contact-us::after {
+  content: '';
+  position: absolute;
+  border-radius: 20px;
+  transform: rotate(-45deg);
+}
+
+.contact-us::before {
+  width: 200px;
+  height: 50px;
+  background-color: #6a60ee;
+  top: 20%;
+  right: 10%;
+  opacity: 0.3;
+}
+
+.contact-us::after {
+  width: 300px;
+  height: 70px;
+  background-color: #2a2eeb;
+  top: 40%;
+  left: 5%;
+  opacity: 0.2;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .content {
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+  }
+
+  .left-section {
+    margin-left: 2rem;
+    text-align: left;
+  }
+
+  /* .left-section p {
+    width: 80%;
+    margin: 0 auto;
+  } */
+  .footer-note{
+    margin-top: 1rem;
+  }
+
+  /* .social-icons {
+    margin-right: 0;
+    text-align: center;
+  } */
+
+  /* .right-section {
+    text-align: center;
+  } */
+
+  /* .office-info {
+    margin: 0 auto;
+    text-align: center;
+  } */
+}
+
+@media (max-width: 768px) {
+  .left-section h1 {
+    font-size: 2rem;
+  }
+ 
+
+  .left-section p,
+  .office-info p {
+    font-size: 0.9rem;
+  }
+
+  .left-section .footer-note {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  .right-section {
+     /* Moves the right section to the top */
+    align-self: flex-start; /* Aligns it to the left side */
+    width: 100%; /* Ensures it spans the full width */
+  }
+
+  .social-icons {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .content {
+    gap: 5px;
+  }
+
+  .left-section {
+    margin-left: 0;
+  }
+
+  .left-section h1 {
+    font-size: 1.8rem;
+  }
+
+  .left-section p {
+    margin-top: 0.2rem;
+    width: 100%;
+  }
+
+  .left-section .footer-note {
+    font-size: 0.9rem;
+  }
+  .office-info{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  .contact-icon{
+    font-size: 0.9rem;
+  }
+
+  .office-info p {
+    font-size: 0.7rem;
+  }
+
+  .social-icons {
+    font-size: 1rem;
+  }
+}

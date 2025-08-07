@@ -1,0 +1,131 @@
+.video-card {
+  width: 300px; /* Default width for larger screens */
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 16px; /* Add spacing between cards */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+  text-decoration: none; /* Prevent underlining of text */
+}
+
+.video-thumbnail {
+  width: 100%; /* Ensure the thumbnail (iframe) takes full width */
+  height: auto; /* Fixed height for consistent layout */
+  overflow: hidden; /* Hide any overflowed content */
+}
+
+.video-thumbnail img {
+  width: 100%; /* Stretch iframe to fill the width */
+  height: 100%; /* Stretch iframe to fill the height */
+  border: none; /* Remove iframe border */
+  pointer-events: none; /* Disable user interaction to prevent clicking on the iframe */
+  object-fit: cover; /* Ensure consistent scaling */
+}
+
+.video-duration {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #ffffff;
+  font-size: 12px;
+  padding: 4px 6px;
+  border-radius: 4px;
+}
+
+.video-details {
+  padding: 16px;
+  text-align: left;
+  background-color: rgb(25, 25, 44); /* Navy blue background */
+}
+
+.video-title {
+  font-size: 14px;
+  margin: 0 0 8px;
+  color: #ffffff; /* Make title stand out */
+  font-weight: bold; /* Bold title */
+  line-height: 1.2;
+  text-decoration: none; /* Prevent underline in title */
+}
+
+.video-description {
+  font-size: 12px;
+  color: #bfbfbf; /* Lighter text for description */
+  margin-bottom: 12px; /* Add spacing below */
+  line-height: 1.4; /* Improve readability */
+  text-decoration: none; /* Prevent underline in description */
+}
+
+.video-stats {
+  font-size: 12px;
+  color: #888888;
+}
+
+.views,
+.separator,
+.date {
+  margin-right: 6px;
+}
+
+.separator {
+  color: #888888;
+}
+
+/* Responsive Adjustments for Mobile Screens */
+@media screen and (max-width: 768px) {
+  .video-card {
+    width: 90%; /* Reduce card width to fit mobile screens */
+    margin: 16px auto; /* Center the card and add spacing */
+  }
+
+  .video-duration {
+    font-size: 10px; /* Reduce size of the duration tag */
+    padding: 3px 5px; /* Adjust padding */
+  }
+
+  .video-details {
+    padding: 12px; /* Reduce padding inside the card */
+  }
+
+  .video-title {
+    font-size: 12px; /* Adjust title font size */
+    margin: 0 0 6px; /* Reduce spacing */
+  }
+
+  .video-description {
+    font-size: 11px; /* Adjust description font size */
+  }
+
+  .video-stats {
+    font-size: 10px; /* Adjust font size for stats */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .video-card {
+    width: 100%; /* Expand to full width for extra small screens */
+    margin: 16px auto; /* Add spacing between cards */
+  }
+  .video-thumbnail img {
+    height: 100%;
+  }
+
+  .video-details {
+    padding: 10px; /* Smaller padding for very small screens */
+  }
+
+  .video-title {
+    font-size: 11px; /* Adjust title size */
+  }
+
+  .video-description {
+    font-size: 10px; /* Smaller description text */
+  }
+
+  .video-stats {
+    font-size: 10px; /* Adjust stats font size */
+  }
+}

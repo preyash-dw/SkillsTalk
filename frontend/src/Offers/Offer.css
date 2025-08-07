@@ -1,0 +1,294 @@
+/* General styles for the offer container (unchanged) */
+.offer-container {
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #eef0ff;
+  width: 100%; /* Ensures the container spans the full screen width */
+  max-width: 1200px; /* Limits the maximum width for larger screens */
+  margin: 0 auto; /* Centers the container horizontally */
+  box-sizing: border-box; /* Includes padding within width */
+}
+
+.offer-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #202096;
+}
+
+.offer-subheading {
+  font-size: 1rem;
+  color: #757575;
+}
+
+/* Card container and cards */
+.cardss-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 2%;
+}
+
+.offer-card {
+  background: linear-gradient(to bottom right, #d9e4ff, #ffffff);
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.offer-card:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+.offer-title {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #202096;
+  text-align: left !important;
+}
+
+.offer-price {
+  margin-top: -30%;
+  margin-left: -35%;
+  margin-bottom: 20px;
+}
+
+.new-price {
+  font-size: 2rem !important;
+  font-weight: bold !important;
+  color: #4f4fda !important;
+}
+
+.old-price {
+  font-size: 1.5rem !important;
+  font-weight: 700;
+  text-decoration: line-through !important;
+  color: #a1a1a1 !important;
+  margin-left: 10% !important;
+  margin-top: -10%;
+}
+
+.offer-details {
+  list-style-type: disc;
+  padding: 0;
+  margin-top: 2%;
+  text-align: left;
+}
+
+.offer-details li {
+  font-size: 0.8rem; /* Default font size for other items */
+  margin-bottom: 5px; /* Space between list items */
+}
+
+.highlighted-text {
+  font-size: 1rem; /* Slightly larger font size for the highlighted text */
+}
+
+.smallDes {
+  font-size: 0.7rem; /* Smaller font size for the description */
+  color: #666; /* Lighter color for description */
+}
+
+.cont {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cont span {
+  display: flex;
+  text-align: left;
+  font-family: 'Arial', sans-serif;
+  font-size: 0.8rem;
+  color: #6c757d;
+  margin-top: -5px;
+}
+
+.cont span h2 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #4f4fda;
+  margin: 0 5px 0 0;
+}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+  align-items: center;
+  z-index: 1000;
+  
+}
+
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  width: 85%;
+  max-width: 400px;
+  border-radius: 10px;
+  text-align: left;
+  margin-top: 25%;
+}
+.modal-content h2{
+  text-align: left !important;
+}
+.modal-content .offer-price{
+  margin-top: -20%;
+  margin-left: 0;
+  margin-bottom: 10%;
+}
+.modal-content .highlighted-text{
+   font-size: 1rem !important;
+}
+
+
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: #333;
+}
+
+.close-modal:hover {
+  color: #f00;
+}
+
+
+/* Mobile view-specific styles */
+@media (max-width: 768px) {
+  .cardss-container{
+    gap: 5px;
+  }
+
+  .offer-card {
+    width: 90%; /* Reduce card width */
+    margin: 0 auto; /* Center each card */
+    padding: 15px; /* Reduce padding for smaller screens */
+    font-size: 0.7rem; /* Reduce overall font size */
+  }
+
+  .offer-title {
+    font-size: 0.8rem; /* Adjust card title size */
+  }
+  .offer-price{
+    margin-top: -35%;
+    margin-left: -55%;
+  }
+
+  .new-price {
+    font-size: 1rem !important; /* Reduce price font size */
+  }
+
+  .old-price {
+    font-size: 0.7rem !important; /* Reduce old price font size */
+  }
+
+  .offer-details li {
+    font-size: 0.6rem; /* Adjust list item font size */
+  }
+  .offer-details .highlighted-text{
+    font-size: 0.6rem;
+  }
+
+  .smallDes {
+    display: none; /* Hide small description on mobile */
+  }
+  .cont{
+    margin-top: -5%;
+  }
+
+  .cont span {
+    font-size: 0.6rem; /* Adjust additional content font size */
+  }
+
+  .offer-container {
+    padding: 15px; /* Reduce padding for container */
+  }
+}
+@media (max-width: 480px) {
+  .cardss-container{
+    gap: 5px;
+  }
+
+  .offer-card {
+    width: 90%; /* Reduce card width */
+    margin: 0 auto; /* Center each card */
+    padding: 15px; /* Reduce padding for smaller screens */
+    font-size: 0.7rem; /* Reduce overall font size */
+  }
+
+  .offer-title {
+    font-size: 0.8rem; /* Adjust card title size */
+  }
+  .offer-price{
+    margin-top: -80%;
+    margin-left: -25%;
+  }
+
+  .new-price {
+    font-size: 1rem !important; /* Reduce price font size */
+  }
+
+  .old-price {
+    font-size: 0.7rem !important; /* Reduce old price font size */
+  }
+
+  .offer-details li {
+    font-size: 0.6rem; /* Adjust list item font size */
+  }
+  .offer-details .highlighted-text{
+    font-size: 0.6rem;
+  }
+
+  .smallDes {
+    display: none; /* Hide small description on mobile */
+  }
+  .cont{
+    margin-top: -5%;
+  }
+
+  .cont span {
+    font-size: 0.6rem; /* Adjust additional content font size */
+  }
+
+  .offer-container {
+    padding: 15px; /* Reduce padding for container */
+  }
+  .modal{
+    display: flex;
+  }
+  .modal-content {
+    margin-top: 50%;
+  }
+  .modal-content .offer-price{
+    margin-top: -25%;
+    margin-left: 0;
+    margin-bottom: 8%;
+  }
+  .modal h2{
+    font-size: 1rem !important;
+  }
+  .modal .highlighted-text{
+    font-size: 0.7rem !important;
+  }
+  
+}
+
+/* Modal styles */
+@media (max-width: 400px){
+  .offer-price{
+    margin-top: -90%;
+  }
+}

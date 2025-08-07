@@ -1,0 +1,138 @@
+.choose-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #eef0ff;
+  width: 100vw; /* Full viewport width */
+  max-width: 1200px; /* Prevent container from exceeding screen width */
+  margin: 0 auto; /* Remove margin to avoid horizontal scrolling */
+  box-sizing: border-box; /* Includes padding within the width calculation */
+  padding: 20px; /* Adds padding for better spacing */
+  overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+.choose-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #7070d2;
+  margin-bottom: 30px;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Default: 4 cards per row */
+  gap: 20px;
+  width: 100%; /* Ensure it spans the full container */
+  max-width: 100%; /* Prevent the cards from exceeding container width */
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  text-align: left;
+  font-size: 0.95rem; /* Default font size */
+  box-sizing: border-box; /* Ensure padding is included in width calculation */
+}
+
+.card-icon {
+  font-size: 1rem;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.card-title {
+  font-size: 1.5rem; /* Default title size */
+  font-weight: bold;
+  color: #09043b;
+  margin-bottom: 10px;
+  line-height: 1.2;
+}
+
+.card-description {
+  font-size: 1rem;
+  color: gray;
+  letter-spacing: 0.7px;
+  line-height: 1;
+}
+
+/* Adjustments for tablet view (max-width: 768px) */
+@media (max-width: 768px) {
+  .choose-container {
+    margin-left: 0;
+    padding: 15px; /* Adjust padding for tablets */
+  }
+
+  .cards-container {
+    grid-template-columns: 1fr 1fr; /* 2 cards per row on tablets */
+    width: 100%; /* Ensure full width */
+  }
+
+  .choose-heading {
+    font-size: 2rem; /* Adjust heading size */
+  }
+
+  .card {
+    padding: 15px; /* Reduce padding */
+    font-size: 0.9rem; /* Reduce font size */
+  }
+
+  .card-title {
+    font-size: 1.3rem; /* Smaller title for tablets */
+  }
+
+  .card-description {
+    font-size: 0.9rem; /* Reduce description text size */
+  }
+}
+
+/* Adjustments for mobile view (max-width: 480px) */
+@media (max-width: 480px) {
+  .choose-container {
+    width: 100vw; /* Full viewport width */
+    border-radius: 0px;
+    margin-left: 0;
+    padding: 10px; /* Adjust padding for mobile */
+    height: auto;
+  }
+
+  .cards-container {
+    grid-template-columns: 1fr 1fr; /* 2 cards per row on mobile */
+    width: 98%; /* Ensure full width */
+    overflow-x: hidden;
+  }
+
+  .choose-heading {
+    font-size: 1.8rem; /* Reduce heading size for mobile */
+  }
+
+  .card {
+    padding: 10px; /* Further reduce padding */
+    font-size: 0.85rem; /* Further reduce font size */
+  }
+  .card-icon{
+    margin-bottom: 10px;
+  }
+  .card-title {
+    font-size: 1rem; /* Smaller title for mobile */
+  }
+
+  .card-description {
+    font-size: 0.6rem; /* Reduce description text size */
+  }
+}
+@media (max-width: 390px){
+  .card-title {
+    font-size: 0.7rem !important; /* Smaller title for mobile */
+    line-height: 0.9;
+    font-weight: 600;
+  }
+  .choose-heading{
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,86 @@
+.feedback-form {
+    padding: 20px 30px;
+    background-color: #eef0ff;
+    border-radius: 8px;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  
+  .feedback-form h2 {
+    margin-bottom: 5px;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: left;
+    color: #051d36;
+  }
+  
+  .feedback-form p {
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    color: #666;
+    
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Adds spacing between rows */
+  }
+  label{
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  
+  .flex-row {
+    display: flex;
+    justify-content: space-between; /* Evenly space inputs */
+    gap: 20px; /* Adds space between the two inputs */
+  }
+  
+  .flex-row .form-group {
+    flex: 1; /* Ensure both inputs take equal space */
+  }
+  
+  input,
+  textarea {
+    margin-top: 1%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    min-height: 80px;
+    resize: none;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media screen and (max-width: 768px) {
+ 
+  
+    .feedback-form h2 {
+      font-size: 1.2rem;
+    }
+  }
+  
